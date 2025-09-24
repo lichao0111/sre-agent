@@ -1,6 +1,6 @@
 
 
-# 智能工单系统（Intelligent Ticket Agent）
+# 智能IT工单系统（Intelligent Ticket Agent）
 
 用 `LangChain` + `OpenAI` + `Splunk` 构建的 DevOps 场景下的智能工单系统。系统目标为：
 
