@@ -1,0 +1,5 @@
+{
+  "llm_prompt": "从以下原始告警文本中抽取结构化字段。仅输出一个 JSON，包含可选字段：request_id, service_name, summary。若缺失字段请设为 null。\\n\\n文本:\\n{text}\\n\\n示例输出：{\"request_id\": \"abc-123\", \"service_name\": \"auth\", \"summary\": \"数据库超时\"}",
+  "log_summary_prompt": "请将下面的日志按要点总结成一句话中文摘要（简短）：\\n\\n{logs}\\n\\n只需输出一句话摘要。",
+  "fields": ["request_id", "service_name", "summary"]
+}
